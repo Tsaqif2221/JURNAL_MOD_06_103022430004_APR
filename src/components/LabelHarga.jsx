@@ -1,0 +1,9 @@
+
+function LabelHarga({nilai}) {
+    return(
+        <>
+            <p>Rp.{nilai.toLocaleString('id-ID')}</p>
+        </>
+    )
+}
+export default LabelHarga
